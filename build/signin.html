@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <title>Sign In</title>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+    <header class="w-screen border-b-2 p-3">
+            <div
+                class="container mx-auto flex max-w-3xl items-center justify-between py-1"
+            >
+                <div>
+                    <h3 class="text-3xl font-bold">Logo</h3>
+                </div>
+                <nav class="flex justify-end">
+                    <ul class="flex justify-evenly gap-1 p-2">
+                        <li class="px-3 hover:text-secondary">
+                            <a href="index.html" class="">Home</a>
+                        </li>
+                        <li class="px-3 hover:text-secondary">
+                            <a href="about.html" class="">About</a>
+                        </li>
+                        <li class="px-3 hover:text-secondary">
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li class="px-3 hover:text-secondary">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <!-- form -->
+    <div class="container mx-auto  max-w-3xl flex flex-col justify-center">
+        <div class="flex justify-center items-center w-full my-8">
+            <div class="flex-1 bg-cover bg-center bg-no-repeat rounded-l-2xl shadow-lg" style="background-image: url('./images/doctor.jpg'); height: 410px; width: 600px;">
+                <!-- <img src="./images/doctor.jpg" class="w-full h-full"/> -->
+            </div>
+            <div class="py-12 flex flex-col  justify-center items-center shadow-2xl p-10 rounded-lg">
+                <h2 class="text-2xl font-bold">Sign In</h2>
+                <form class="mt-8 max-w-md">
+                    <div class="grid grid-cols-1 gap-3">
+                            <div class="form-control w-full">
+                                <input type="text" placeholder="User name" class="input input-bordered w-full max-w-xs" />
+                            </div>
+                            <div class="form-control w-full">
+                                <input type="text" placeholder="password" class="input input-bordered w-full max-w-xs" />
+                            </div>
+                            <div class="flex justify-center">
+                                <button class="btn btn-primary mx-1">Sign in</button>
+                                <button class="btn btn-secondary mx-1"><a href="./signup.html">Sign up</a></button>
+                            </div>
+                        </div> 
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer
+        class="footer footer-center bg-primary p-10 text-primary-content"
+    >
+        <div>
+            <p class="font-bold">
+                HelloWorld Industries Ltd. <br />Providing reliable health
+                serivices since 2022
+            </p>
+            <p>Copyright © 2023 - All right reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
